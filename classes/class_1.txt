@@ -1,0 +1,16 @@
+Class: Fast Food Restaurant
+
+Attributes:
+name (string)
+has_drive_thru (boolean)
+is_open (boolean)
+menu_item (array)
+item_price (float)
+item_qty (integer)
+
+
+Methods:
+change is_open (modify is_open)
+change item_price (update item_price)
+item_total (item_price * item_qty)
+add item to menu_item (append new value to menu_item array)
