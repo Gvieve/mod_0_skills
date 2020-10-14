@@ -1,0 +1,9 @@
+food = "Popcorn"
+is_delicious = true
+food = "Candy"
+num2 = 3
+num7 = 30
+quotient = num7/num2
+songs = ["Harvest Moon", "Comfortably Numb", "Cannon in D"]
+songs.shift
+food.size
