@@ -10,9 +10,11 @@ __Attributes__
 * location (string)
 * takeout (boolean)
 * delivery (boolean)
+* drive_thru (boolean)
 
 __Methods__
-* add food_type (append new value to food_type array)
-* change dining_type (update dining_type)
+* add_food_type (append new value to food_type array)
+* change_dining_type (update dining_type)
 * review_ratings (total_reviews_rating/total_reviews)
-* offers delivery (update delivery to true)
+* has_delivery (update delivery to true)
+* has_drive_thru (update drive_thru to true)
