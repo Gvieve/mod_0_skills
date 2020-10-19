@@ -1,16 +1,22 @@
-Class: Fast Food Restaurant
+Class: Employee
 
 Attributes:
-name (string)
-has_drive_thru (boolean)
-is_open (boolean)
-menu_item (array)
-item_price (float)
-item_qty (integer)
+is_full_time (boolean)
+rehire_eligible (boolean)
+hourly_rate (float)
+phone_number (string)
+hired_on (date)
+inactive_on (date)
+employee_id (integer)
+current_position (string)
+previous_positions (array)
 
 
 Methods:
-change is_open (modify is_open)
-change item_price (update item_price)
-item_total (item_price * item_qty)
-add item to menu_item (append new value to menu_item array)
+is_part_time (update is_full_time to false)
+employee_terminated (update inactive_on to given date, update rehire_eligible
+to false)
+employee_resign (update inactive_on to given date)
+update_hourly_rate (update hourly_rate)
+change_position (append current position to previous_positions array, update
+current_position to new value)
