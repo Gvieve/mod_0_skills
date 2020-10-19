@@ -1,16 +1,21 @@
-Class: McDonalds
+Class: Employee
 
 Attributes:
-name = "Store #1231"
-has_drive_thru = true
-is_open = false
-menu_item = ["Fries", "Coca Cola", "Chicken Nuggets"]
-item_price = 2.99
-item_qty = 2
+is_full_time = true
+rehire_eligible = true
+hourly_rate = 11.50
+phone_number = "1-720-555-1231"
+hired_on = 2018-10-02
+inactive_on = nil
+employee_id = 75891324
+current_position = "Cashier"
+previous_positions = ["Food Service Worker"]
 
 
 Methods:
-change is_open: is_open = true
-change item_price: item_price = 3.99
-item_total: (3.99 * 2) = 7.98
-add item to menu_item: menu_item = ["Fries", "Coca Cola", "Chicken Nuggets", "Cheeseburger"]
+is_part_time: is_full_time = false
+employee_terminated: inactive_on = 2020-10-19 , rehire_eligible = false
+employee_resign: inactive_on = 2020-10-19
+update_hourly_rate: hourly_rate = 13.00
+change_position: previous_positions ["Food Service Worker", "Cashier"] ,
+current_position = "Crew Leader"
